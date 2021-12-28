@@ -56,6 +56,7 @@ public class MainWindow extends JFrame {
 [![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub-Mark-32px.png)](https://github.com/comtvset/SnakeGame.git)
 
 ## **Language**
+
 | Language     | Level        |
 | ------------ | ------------ |
 | Belarusian   | _B1/B2_      |
