@@ -23,7 +23,7 @@
 * **Belarusian State University**
   * [Faculty of Philosophy and Social Sciences](https://ffsn.bsu.by/en/home/)
 * **Belarusian State University** 
-  * [Department of Management and Economics of Social Sphere](https://fsc.bsu.by/en/personalities-of-department-of-management-and-economics-of-social-sphere/)
+  * [Department of Management and Economics of Social Sphere](https://fsc.bsu.by/en/department-of-management-and-economics-of-social-sphere/)
 * **Software Development Academy in Warsaw** 
   * ["Java from scratch" course](https://sdacademy.pl/kursy/java/)
 * **RS Schools Course «JavaScript/Front-end. Stage 0»**
@@ -56,12 +56,12 @@ public class MainWindow extends JFrame {
 [![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub-Mark-32px.png)](https://github.com/comtvset/SnakeGame.git)
 
 ## **Language**
-| Language | Level |
-| ------ | ------ |
-| Belarusian | _B1/B2_ |
-| Russian | _Native_ |
-| Polish | _B1_ |
-| English | _A1_ |
+| Language     | Level        |
+| ------------ | ------------ |
+| Belarusian   | _B1/B2_      |
+| Russian      | _Native_     |
+| Polish       | _B1_         |
+| English      | _A1_         |
 
 *created with Markdown-format*
 [![created with Markdown-format](https://raw.githubusercontent.com/comtvset/logo/main/markdown_46x26.png)](https://en.wikipedia.org/wiki/Markdown)
