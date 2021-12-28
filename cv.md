@@ -7,8 +7,7 @@
 [![LinkedIn**](https://raw.githubusercontent.com/comtvset/logo/main/LinkedIn_logo_95x23.png)](https://www.linkedin.com/in/vadzim-tsikhaniuk-69643b155/)
 \
 [![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub_logo_63x17.png)](https://github.com/comtvset)
----
-#
+
 ## **About Me**
 
 #### Hi, I'm 35 years old.
@@ -20,7 +19,6 @@
 \
 >**_Confucius_**
 
----
 ## **Education and courses**
 * **Belarusian State University**
   * [Faculty of Philosophy and Social Sciences](https://ffsn.bsu.by/en/home/)
@@ -30,7 +28,7 @@
   * ["Java from scratch" course](https://sdacademy.pl/kursy/java/)
 * **RS Schools Course «JavaScript/Front-end. Stage 0»**
   * [in progress](https://rs.school/js-stage0/)
----
+
 ## **Skils**
 + **Java Core**
 + **HTML**
@@ -38,7 +36,7 @@
 + **Photoshop**
 + **Illustrator**
 + **Premiere Pro**
----
+
 ## **Code Examples**
 ```
 public class MainWindow extends JFrame {
@@ -57,7 +55,6 @@ public class MainWindow extends JFrame {
 ```
 [![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub-Mark-32px.png)](https://github.com/comtvset/SnakeGame.git)
 
----
 ## **Language**
 | Language | Level |
 | ------ | ------ |
@@ -65,6 +62,6 @@ public class MainWindow extends JFrame {
 | Russian | _Native_ |
 | Polish | _B1_ |
 | English | _A1_ |
----
+
 *created with Markdown-format*
 [![created with Markdown-format](https://raw.githubusercontent.com/comtvset/logo/main/markdown_46x26.png)](https://en.wikipedia.org/wiki/Markdown)
