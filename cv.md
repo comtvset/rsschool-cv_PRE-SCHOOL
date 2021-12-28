@@ -1,24 +1,25 @@
 # **Vadzim Tsikhaniuk**
----
-## **Contacts:**
-##### **Location:** Warszawa, Polska
-##### **Phone:** +48 796685938
-##### **E-mail:** comtvset@gmail.com
-##### **Discord:** Vadzim#4960
+## **Contacts**
+#### **Location:** Warszawa, Polska
+#### **Phone:** +48 796685938
+#### **E-mail:** comtvset@gmail.com
+#### **Discord:** Vadzim#4960
 [![LinkedIn**](https://raw.githubusercontent.com/comtvset/logo/main/LinkedIn_logo_95x23.png)](https://www.linkedin.com/in/vadzim-tsikhaniuk-69643b155/)
+\
 [![GitHub](https://raw.githubusercontent.com/comtvset/logo/main/GitHub_logo_63x17.png)](https://github.com/comtvset)
 ---
-
+#
 ## **About Me**
 
-##### Hi, I'm 35 years old.
-##### For me, the goal is to get the knowledge and skills that are enough to get a job. 
-##### I hope that my optimism, creativity and hard work will help me achieve it!
-#
-#
->When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps.
-**Confucius**
-#
+#### Hi, I'm 35 years old.
+#### For me, the goal is to get the knowledge and skills that are enough to get a job. 
+#### I hope that my optimism, creativity and hard work will help me achieve it!
+
+>*When it is obvious that the goals cannot be reached,*
+>*don't adjust the goals, adjust the action steps.*
+\
+>**_Confucius_**
+
 ---
 ## **Education and courses**
 * **Belarusian State University**
@@ -58,7 +59,6 @@ public class MainWindow extends JFrame {
 
 ---
 ## **Language**
-#
 | Language | Level |
 | ------ | ------ |
 | Belarusian | _B1/B2_ |
@@ -66,6 +66,5 @@ public class MainWindow extends JFrame {
 | Polish | _B1_ |
 | English | _A1_ |
 ---
-#
 *created with Markdown-format*
 [![created with Markdown-format](https://raw.githubusercontent.com/comtvset/logo/main/markdown_46x26.png)](https://en.wikipedia.org/wiki/Markdown)
