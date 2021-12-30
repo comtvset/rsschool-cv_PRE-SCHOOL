@@ -1,1 +1,1 @@
-# rsschool-cv
+https://comtvset.github.io/rsschool-cv/
