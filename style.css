@@ -3,6 +3,7 @@
   src: url("assets/fonts/Lato/Lato-Regular.ttf");
   font-weight: 100;
 }
+/* А тут я добавлю второй комментарий*/
 @font-face {
   font-family: 'Lato';
   src: url("assets/fonts/Lato/Lato-Regular.ttf");
@@ -39,7 +40,7 @@
 }
 
 .nav-link { /*<---- навигация*/
-  
+
   padding: 0 20px;
   line-height: 50px;
   text-decoration: none;
