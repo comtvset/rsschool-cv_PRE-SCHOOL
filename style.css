@@ -3,7 +3,6 @@
   src: url("assets/fonts/Lato/Lato-Regular.ttf");
   font-weight: 100;
 }
-/* А тут я добавлю второй комментарий*/
 @font-face {
   font-family: 'Lato';
   src: url("assets/fonts/Lato/Lato-Regular.ttf");
@@ -14,22 +13,9 @@
   src: url("assets/fonts/Lato/Lato-ThinItalic.ttf");
   font-weight: 100;
 }
-
 * {
   box-sizing: border-box;
-}
-
-#profile {
-  width: 100%;
-  margin-top: -100px;
-}
-
-.font1 {
-  color: #0e1311;
-  font: 50px 'Lato';
-  text-align: center;
-  margin: auto;
-  margin-left: 300px;
+  /*border: solid #cd5b5b 1px;*/
 }
 
 .nav-list {
@@ -39,8 +25,7 @@
   list-style: none;
 }
 
-.nav-link { /*<---- навигация*/
-
+.nav-link { 
   padding: 0 20px;
   line-height: 50px;
   text-decoration: none;
@@ -55,6 +40,24 @@
   color: #e24242e8;
 }
 
+.profile {
+  display: flex;
+  width: 800px;
+}
+
+.photo {
+  display: flex;
+  height: 200px;
+  width: 200px;
+}
+
+.font1 {
+  color: #f8fffc;
+  font: 50px 'Lato';
+  margin-left: 30px;
+  margin-top: 70px;
+ }
+
 .link {
   text-decoration: none;
   color: #0e1311;
@@ -65,6 +68,16 @@
   color: #d64141;
 }
 
+.link2 {
+  text-decoration: none;
+  color: #ece4e1;
+  transition: color 0.5s;
+}
+
+.link2:hover {
+  color: #d64141;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -72,14 +85,15 @@ html {
 .main-header {
   display: flex;
   position: static;
-  padding: 50px;
+  padding: 20px;
   left: 10px;
   right: 10px;
   top: 10px;
-  background: url(assets/img/enjoy.jpg);
+  background: rgb(49, 49, 49);
   background-size: 100%;
-  box-shadow: 5px 5px 15px #333;
+  box-shadow: 5px 5px 15px rgb(170, 111, 111); /*<---- цвет подсветки*/
   width: 100%;
+  flex-direction: column;
 }
 
 .section {
@@ -91,14 +105,8 @@ html {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: #3d3d38; /*<---- цвет заголовков*/
+  color: #2e2727; /*<---- цвет заголовков*/
   display: flex;
-}
-
-@media (max-width: 768px) {
-  .section {
-    width: 100%;
-  }
 }
 
 body {
@@ -114,7 +122,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #4d2323;
+  color: #423737; /*<---- цвет тескта основного*/
   background-color: #ffffff;
 }
 
@@ -125,31 +133,18 @@ footer {
   left: 10px;
   right: 10px;
   top: 10px;
-  background: url(assets/img/enjoy.jpg);
+  background: rgb(49, 49, 49);
   background-size: 100%;
-  box-shadow: 5px 5px 15px #333;
   width: 100%;
+  box-shadow: 5px -5px 15px rgb(170, 111, 111); /*<---- цвет подсветки*/
 }
 
 .container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.photo {
-  text-align: left;
-  margin: 20px 80px;
-  float: left;
-  width: 220px;
-}
-
-.photo img {
-  width: 200px;
-  height: 200px;
-  border: 3px solid rgb(206, 197, 197);
-  box-shadow: 0px 0px 10px rgb(119, 119, 119);
-  border-radius: 50%;
-  margin-top: -80px;
+  display: flex;
+  max-width: 1920px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .style1 {
@@ -158,24 +153,21 @@ footer {
 }
 
 .code {
-  margin: 0;
-  padding: 40px;
+  padding: 10px;
   position: relative;
-  text-align: center;
+  text-align: left;
+  background: rgb(246, 247, 248);
 }
 
 .rss {
+  display: flex;
   text-align: left;
-  margin: 20px 80px;
-  width: 15%;
+  margin: 2px 470px;
+  width: 100%;
   color: white;
-}
-
-.rss img {
-  text-align: right;
-  width: 110px;
-  height: 40px;
-  margin-top: -80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 blockquote {
@@ -189,19 +181,15 @@ blockquote {
 
 blockquote:before, blockquote:after {
   font-size: 30px;
-  color: #e24242e8;
+  color: #5f1616e8;
   position: absolute;
   height: 2px;
   left: 40px;
   right: 40px;
   line-height: .5;
-  background: linear-gradient(
-      to right,
-      #e24242e8 45%,
-      transparent 45%,
-      transparent
-    ),
-    linear-gradient(to right, transparent, transparent 55%, #e24242e8 55%);
+  background: 
+    linear-gradient(to right,#5f1616e8 45%, transparent 45%, transparent),
+    linear-gradient(to right, transparent, transparent 55%, #5f1616e8 55%);
   font-family: serif;
 }
 
