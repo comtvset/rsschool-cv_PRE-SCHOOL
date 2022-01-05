@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/ico/cvLogo.ico">
 </head>
-
 <body>    
     <header class="main-header">
         <div class="container">
@@ -18,25 +18,25 @@
                   <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
                   <li class="nav-item"><a href="#education" class="nav-link">Education and courses</a></li>
                   <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                  <li class="nav-item"><a href="#code" class="nav-link">Code Examples</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code&Project</a></li>
                   <li class="nav-item"><a href="#language" class="nav-link">Language</a></li>
                 </ul>
             </nav>
         </div>
+        <div class ="container">
+           <div class="profile"> 
+               <div class="photo">
+                     <img src="assets/img/myPhoto.png" alt="my photo">
+                </div>
+                <div>
+                     <h1 class="font1"><a class="link2" href="https://www.facebook.com/vadzim.tsikhaniuk/">Vadzim Tsikhaniuk</a></h1>
+                 </div>
+            </div>
+         </div>
     </header>
     
-    <div class="photo">
-        <img src="assets/img/myPhoto.png" alt="my photo">
-    </div>
-
     <main>
-        <div class="container" class="main-container">
-            <section class="section" id="profile">
-                <section class="section-title">
-                    <h1 class="font1"><b>Vadzim Tsikhaniuk</b></h1>
-                </section>       
-            </section>
-
+        <div class="container">
             <section class="section" id="contacts">
                 <section class="section-title">
                     <h2>Contacts</h2>
@@ -46,8 +46,7 @@
                    <li><b>Phone:</b> +48 796685938</li>
                    <li><b>E-mail:</b> comtvset@gmail.com</li>
                    <li><b>Discord:</b> Vadzim#4960</li>
-                   <li><b>LinkedIn:</b> </li>
-                   <li><b>GitHub:</b> </li>
+                   <li><a href="https://www.linkedin.com/in/vadzim-tsikhaniuk-69643b155/"> <img src="assets/img/LinkedIn_logo_80x19 (red).png" alt="logo"></a></li>
                 </ul>
             </section>
 
@@ -55,9 +54,9 @@
                 <section class="section-title">
                     <h2>About Me</h2>
                 </section> 
-                <p>Hi, I'm 35 years old.
+                <p><h3>Hi, I'm 35 years old.
                    For me, the goal is to get the knowledge and skills that are enough to get a job. 
-                   I hope that my optimism, creativity and hard work will help me achieve it!</p>
+                   I hope that my optimism, creativity and hard work will help me achieve it!</h3></p>
                   
                    <blockquote> 
                        <p><span><i>When it is obvious that the goals cannot be reached, don't adjust the goals, adjust the action steps.</i></span></p>
@@ -71,16 +70,16 @@
                 </section> 
                     <ul>
                         <p><h3>Belarusian State University</h3>
-                            <li class="style1"><a class="link" href="https://ffsn.bsu.by/en/home/">Faculty of Philosophy and Social Sciences</a></li>
+                            <li class="style1"><a class="link" href="https://ffsn.bsu.by/en/home/">Faculty of Philosophy and Social Sciences &#128279</a></li>
                         </p>
                         <p><h3>Belarusian State University</h3>
-                            <li class="style1"><a class="link" href="https://fsc.bsu.by/en/department-of-management-and-economics-of-social-sphere/">Department of Management and Economics of Social Sphere</a></li>
+                            <li class="style1"><a class="link" href="https://fsc.bsu.by/en/department-of-management-and-economics-of-social-sphere/">Department of Management and Economics of Social Sphere &#128279</a></li>
                         </p>
                         <p><h3>Software Development Academy in Warsaw</h3>
-                            <li class="style1"><a class="link" href="https://sdacademy.pl/kursy/java/">Java from scratch" course</a></li>
+                            <li class="style1"><a class="link" href="https://sdacademy.pl/kursy/java/">Java from scratch course &#128279</a></li>
                         </p>
                         <p><h3>RS Schools Course «JavaScript/Front-end. Stage 0»</h3>
-                            <li class="style1"><a class="link" href="https://rs.school/js-stage0/">in progress</a></li>
+                            <li class="style1"><a class="link" href="https://rs.school/js-stage0/">in progress &#128279</a></li>
                         </p>
                     </ul>     
             </section>
@@ -102,10 +101,27 @@
 
             <section class="section" id="code">
                 <section class="section-title">
-                    <h2>Code</h2>
+                    <h2>Code&Project</h2>
                 </section>
                 <div class="code">
-                    <img src="assets/img/code.jpg" alt="code example">
+                    <pre><code>public class MainWindow extends JFrame {
+                        public MainWindow(){
+                            setTitle(&quot;Snake&quot;);
+                            setDefaultCloseOperation
+                            (WindowConstants.EXIT_ON_CLOSE);
+                            setSize(350,375);
+                            setLocation(800,400);
+                            add(new GameField());
+                            setVisible(true);
+                        }
+                    
+                        public static void main(String[] args) {
+                            MainWindow mw = new MainWindow();
+                        }
+                    }</code></pre>
+                </div>
+                <div>
+                    <p><a class="link" href="https://comtvset.github.io/rsschool-cv/">Project my CV &#128279</a></p>
                 </div>
             </section>
 
@@ -132,11 +148,19 @@
         </div>
     </main>
     
-    <footer>
+    <footer class="main-footer">
+        <div class="container">
         <div class="rss">
-             <p>2020</p>
-             <p><a href="https://rs.school/js/"> <img src="assets/img/rs_school_js.png" alt="logo"></a></p>
-             
+            <div>
+                 <p><b>2022</b></p>
+            </div>
+            <div>
+                <p><a href="https://github.com/comtvset"> <img src="assets/img/GitHub-Mark-32px (white).png" alt="logo"></a></p>
+           </div>
+            <div>
+                <p><a href="https://rs.school/js/"> <img src="assets/img/rs_school_js.png" alt="logo"></a></p>
+            </div>
+        </div>
         </div>
     </footer>
 </body>
