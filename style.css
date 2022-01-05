@@ -126,7 +126,7 @@ body {
   background-color: #ffffff;
 }
 
-footer {
+.main-footer {
   display: flex;
   position: static;
   padding: 2px;
@@ -137,6 +137,7 @@ footer {
   background-size: 100%;
   width: 100%;
   box-shadow: 5px -5px 15px rgb(170, 111, 111); /*<---- цвет подсветки*/
+  flex-direction: column;
 }
 
 .container {
@@ -162,12 +163,13 @@ footer {
 .rss {
   display: flex;
   text-align: left;
-  margin: 2px 470px;
-  width: 100%;
+  margin: 2px;
+  width: 800px;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 blockquote {
